@@ -29,19 +29,6 @@
     </global>
     <loader_type>grub2-efi</loader_type>
   </bootloader>
-  <ca_mgm>
-    <CAName>YaST_Default_CA</CAName>
-    <ca_commonName>YaST Default CA (alexnet.suse)</ca_commonName>
-    <country>US</country>
-    <locality/>
-    <organisation/>
-    <organisationUnit/>
-    <password>ENTER PASSWORD HERE</password>
-    <server_commonName>slestest.alexnet.suse</server_commonName>
-    <server_email>postmaster@alexnet.suse</server_email>
-    <state/>
-    <takeLocalServerName config:type="boolean">false</takeLocalServerName>
-  </ca_mgm>
   <deploy_image>
     <image_installation config:type="boolean">false</image_installation>
   </deploy_image>

@@ -1,0 +1,9 @@
+#Creazione ISO con profilo autoyast custom
+ mkisofs -o autoyast.iso autoinst.xml
+
+#Parametro Grub2 per leggere il profilo da ISO 
+ Esempio con Virtual CD 2 (/dev/sr1)
+  autoyast=device://sr1/autoinst.xml <- append alla linea "linuxefi..." 
+ per accedere al Menu di GRUB2: selezionare boo entry "install" e premere tasto e
+ per avviare premere Ctrl-x
+
